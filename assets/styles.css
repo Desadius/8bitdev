@@ -942,3 +942,11 @@ h6 {
   .git-practice-helper{ width:calc(100% - 24px) !important; right:12px !important; left:12px !important }
   .git-practice-helper pre{ font-size:11px }
 }
+
+.newsletter form{
+  background: var(--retro-light);
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 2rem;
+  text-align: center;
+}
