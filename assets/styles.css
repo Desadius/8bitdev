@@ -694,7 +694,7 @@ h6 {
   border-top: 1px solid #eee;
   background: var(--retro-light);
   color: var(--retro-dark);
-  margin-top: 0;
+  margin-top: 10;
 }
 
 .footer-container {
