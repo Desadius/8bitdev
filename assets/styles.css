@@ -678,7 +678,7 @@ h6 {
 .event-content p {
   font-family: 'Inter', sans-serif;
   color: var(--retro-grey);
-  line-height: 1.6;
+  line-height: 1.7;
   margin-bottom: 0.5rem;
 }
 
@@ -686,7 +686,7 @@ h6 {
   font-family: 'Inter', sans-serif;
   color: var(--retro-red);
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 /* Footer Styling */
@@ -694,7 +694,7 @@ h6 {
   border-top: 1px solid #eee;
   background: var(--retro-light);
   color: var(--retro-dark);
-  margin-top: 10;
+  margin-top: 11;
 }
 
 .footer-container {
