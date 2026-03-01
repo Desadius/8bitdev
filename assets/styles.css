@@ -41,6 +41,7 @@ h6 {
 .navbar {
   background: var(--retro-white);
   border-bottom: 3px solid var(--retro-red);
+  padding-bottom: 10px;
 }
 
 .nav-container {

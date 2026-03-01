@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Gallery - 8.BIT.BLOG</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+    <style>
+      .gallery-hero{ text-align:center;padding:2.5rem 1rem }
+      .gallery-grid{ display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;max-width:1200px;margin:0 auto;padding:1rem }
+      .gallery-item{background:var(--retro-light);border:2px solid #e6eef8;border-radius:12px;overflow:hidden}
+      .gallery-item img{width:100%;height:160px;object-fit:cover;display:block}
+      .gallery-caption{padding:0.6rem 0.8rem;font-family:'Inter',sans-serif;color:var(--retro-dark);font-size:0.95rem}
+      @media(min-width:900px){ .gallery-item img{height:200px} }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="nav-logo">8.BIT.BLOG</a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="gallery-hero">
+      <h1>Gallery</h1>
+      <p class="subtitle">A small collection of retro-inspired shots (placeholders)</p>
+    </header>
+
+    <main class="content">
+      <section class="gallery-grid">
+        <!-- 9 placeholder images -->
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/1/800/600" alt="Gallery image 1" />
+          <div class="gallery-caption">Pixel Sunset</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/2/800/600" alt="Gallery image 2" />
+          <div class="gallery-caption">Arcade Night</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/3/800/600" alt="Gallery image 3" />
+          <div class="gallery-caption">Cartridge Collection</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/4/800/600" alt="Gallery image 4" />
+          <div class="gallery-caption">8-Bit Streets</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/5/800/600" alt="Gallery image 5" />
+          <div class="gallery-caption">Scoreboard</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/6/800/600" alt="Gallery image 6" />
+          <div class="gallery-caption">Controller Macro</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/7/800/600" alt="Gallery image 7" />
+          <div class="gallery-caption">Pixel Portrait</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/8/800/600" alt="Gallery image 8" />
+          <div class="gallery-caption">Vintage Console</div>
+        </div>
+        <div class="gallery-item">
+          <img src="https://picsum.photos/seed/9/800/600" alt="Gallery image 9" />
+          <div class="gallery-caption">High Score</div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <h3>8.BIT.BLOG</h3>
+          <p>Your retro gaming spot.</p>
+        </div>
+      </div>
+      <div class="footer-bottom"><p>&copy; 2024 8.BIT.BLOG</p></div>
+    </footer>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
