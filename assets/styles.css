@@ -40,8 +40,9 @@ h6 {
 /* Navbar styling */
 .navbar {
   background: var(--retro-white);
-  border-bottom: 3px solid var(--retro-red);
+  border-bottom: 4px solid var(--retro-red);
   padding-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(211,47,47,0.06);
 }
 
 .nav-container {
@@ -80,6 +81,12 @@ h6 {
 
 .nav-links a:hover {
   color: var(--retro-red);
+}
+
+/* Active nav link */
+.nav-links a.active, .nav-links a[aria-current="page"]{
+  color: var(--retro-red);
+  font-weight: 700;
 }
 
 /* Main title styling */
